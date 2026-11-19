@@ -1,0 +1,47 @@
+.hero {
+  background-color: var(--4t-surface-navy);
+  overflow: hidden;
+}
+
+.backgroundImage {
+  object-fit: cover;
+  object-position: center 55%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 25, 36, 0.78) 0%,
+    rgba(17, 25, 36, 0.45) 55%,
+    rgba(17, 25, 36, 0.35) 100%
+  );
+}
+
+.inner {
+  /* Demo max-width is 1200px on the content box, with 32px padding outside it. */
+  max-width: 1264px;
+  padding: 120px 32px;
+  gap: 72px;
+}
+
+.welcomeColumn {
+  flex: 1 1 440px;
+  min-width: 0;
+}
+
+.accessColumn {
+  flex: 1 1 400px;
+  min-width: 0;
+  max-width: 520px;
+}
+
+@media (max-width: 600px) {
+  .inner {
+    padding: 64px 16px;
+    gap: 40px;
+  }
+}

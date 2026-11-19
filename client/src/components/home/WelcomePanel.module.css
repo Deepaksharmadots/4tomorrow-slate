@@ -1,0 +1,19 @@
+.card {
+  margin-top: 8px;
+  max-width: 536px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+
+
+.check {
+  display: inline-flex;
+  color: var(--4t-accent-primary);
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 24px;
+  }
+}
