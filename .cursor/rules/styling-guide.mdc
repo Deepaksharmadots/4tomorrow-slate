@@ -1,0 +1,12 @@
+---
+description: Read and follow the 4tomorrow style guide before designing or changing any client UI
+alwaysApply: true
+---
+
+# 4tomorrow styling
+
+Before designing or changing any client UI (layout, components, colour, type, spacing, or Bootstrap markup), read `client/docs/4tomorrow_style_guide_v2.md` and follow it.
+
+- Use the guide’s semantic tokens, type scale, spacing, and component rules. Do not invent colours, font sizes, or spacing.
+- Implement the guide with Bootstrap 5 utilities and components, plus small overrides in `client/src/app/globals.css` when Bootstrap has no matching utility.
+- This applies to the Next.js client only. Do not apply it to Catalyst functions.
