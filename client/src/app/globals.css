@@ -28,7 +28,7 @@
   --4t-overlay-glass: rgba(253, 253, 253, 0.15);
 
   --4t-font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --4t-font-ui: var(--font-space-grotesk), "Space Grotesk", sans-serif;
+  --4t-font-ui: "Space Grotesk", sans-serif;
 
   --bs-body-font-family: var(--4t-font-body);
   --bs-body-font-size: 1rem;
